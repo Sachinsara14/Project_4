@@ -1,13 +1,13 @@
-# 🏥 Project 4: TCGA RNA-seq Data Analysis
+#  Project 4: TCGA RNA-seq Data Analysis
 
 **Goal:** Automate the analysis of large-scale cancer genomics data to validate biomarkers. This project analyzes **Lung Adenocarcinoma (LUAD)** data from The Cancer Genome Atlas (TCGA) to quantify the differential expression of the gene *NKX2-1* in Primary Tumors versus Solid Tissue Normal samples.
 
-### 🚀 Key Features
+###  Key Features
 * **Metadata Parsing:** Automatically links blind data files to clinical information (Tumor vs Normal) using the GDC sample sheet.
 * **Automated Extraction:** Uses Bash/Awk to mine specific gene targets from hundreds of RNA-seq files without manual intervention.
 * **Statistical Visualization:** Generates publication-quality boxplots in R, applying Log2 transformation for proper expression scaling.
 
-### 📂 File Structure
+###  File Structure
 
 | File | Language | Description |
 | :--- | :--- | :--- |
@@ -16,12 +16,12 @@
 | `gdc_sample_sheet.tsv` | Data | Metadata linking File IDs to Sample Types. |
 | `tcga_data.tar.gz` | Data | Compressed archive containing raw gene expression files. |
 
-### 🛠 Prerequisites
+### Prerequisites
 * Bash / Unix Environment
 * R (Libraries: `ggplot2`)
 * Standard tools: `tar`, `awk`, `grep`
 
-### ⚙️ Usage
+### Usage
 
 #### 1. Extract and Process Data
 Run the Bash script to unzip the archive and mine the data.
