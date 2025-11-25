@@ -12,7 +12,7 @@
 | File | Language | Description |
 | :--- | :--- | :--- |
 | `box_plot.sh` | Bash | The engine. Unzips data, parses `gdc_sample_sheet.tsv`, extracts TPM values for *NKX2-1*, and saves a CSV. |
-| `expression_plot.r` | R | The visualizer. Reads the CSV, performs $Log_2(TPM+1)$ transformation, and plots the comparison. |
+| `expression_plot.R` | R | The visualizer. Reads the CSV, performs $Log_2(TPM+1)$ transformation, and plots the comparison. |
 | `gdc_sample_sheet.tsv` | Data | Metadata linking File IDs to Sample Types. |
 | `tcga_data.tar.gz` | Data | Compressed archive containing raw gene expression files. |
 
